@@ -17,11 +17,13 @@ To try out the script, simply run the command :
     python tictactoe.py
 
 Optional arguments : 
-  - myname (or m) : name of the player (default "me")
-  - training (or r) : number of training games (default 1000)
-  - test (or e) : number of test games (default 0)
+  - myname ( or m ) : name of the player (default "me")
+  - training ( or r ) : number of training games (default 1000)
+  - test ( or e ) : number of test games (default 0)
 Example :
 
+```
     python tictactoe.py --myname khaled --training 5000 --test 1000
+```
 
 You can tweak as well the hyperparameters, save your model, train against a different type of agent, etc.
