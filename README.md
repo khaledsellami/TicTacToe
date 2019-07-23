@@ -6,7 +6,7 @@ This is a small project I made to learn and implement Deep Q-learning. It's a ba
 This is achieved by rewarding the agent if it wins and penalizing it if it loses. It then updates itself using the Q-value formula.   
 
 ## Results
-The agent was trained against a player that selects randomly an empty cell to play. Most of the time the agent would win more than 80% of its test games. However, all of the stragtegies it developed were very aggressive and would lose quickly against a real player which isn't surprising considering it's a 2-player game and Q-learning alone won't work for that.
+The agent was trained against a player that selects randomly an empty cell to play. Most of the time the agent would win more than 80% of its test games. However, all of the strategies it developed were very aggressive and would lose quickly against a real player which isn't surprising considering it's a 2-player game and Q-learning alone won't work for that.
 
 ## Install
 This project requires Python 3.7 installed and Keras on top of Tensorflow.
